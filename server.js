@@ -6,7 +6,7 @@ const getByProperty = require('./data');
 const app = express();
 app.use(cors())
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8081;
 
 app.get('/', (req, res) => res.sendFile('./index.html', { root: __dirname }));
 app.get('/challenge', (req, res) => res.sendFile('./challenge.html', { root: __dirname }));

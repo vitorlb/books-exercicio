@@ -1,3 +1,48 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/challenge.css" />
+    <script src="static/books.js"></script>
+
+</head>
+
 <body>
-    <header>Hello</header>
+    <div class="loaderContainer" id="loaderContainer">
+    <div id="loader">
+        <div class="gif"><img src="static/load.gif"></div>
+    </div>
+</div>
+<div class="content-container">
+    <div class="content" id="content">
+        <header>
+            <div class="searchbox" id="searchbox">
+                <p><strong>Welcome to the Rosybrown amazing medical library. Is nice, is good, and is medical. </strong></p>
+                <form id="coiso">
+                    <div class="campo">Title:<br> <input id="title" type="text"></div class="campo">
+                    <div class="campo">Author:<br> <input id="author" type="text"></div>
+
+                    <div class="campo">Publisher:<br> <input id="pub" type="text"></div>
+                </form>
+                <button id="go">Search for books</button>
+            </div>
+        </header>
+        <section class="table" id="table">
+
+
+        </section>
+        <section class="indice" id="indice">
+            <p>Navigate through the pages. Navigate away brother</p>
+            <ul id="indicePaginas">
+
+            </ul>
+
+        </section>
+    </div>
+</div>
 </body>
+<style>
+
+</style>
+
+</html>
